@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: chatgamer-backend
-    runtime: python
-    envVars:
-      - key: HUGGINGFACE_TOKEN
-        sync: false
-    startCommand: "bash start.sh"
