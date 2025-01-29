@@ -1,0 +1,21 @@
+# Ignorar arquivos de ambiente
+.env
+.venv/
+venv/
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar logs e arquivos temporários
+*.log
+logs/
+tmp/
+
+# Ignorar configurações do PyCharm/VSCode
+.idea/
+.vscode/
+
+# Ignorar dependências instaladas via pip
+*.egg-info/
