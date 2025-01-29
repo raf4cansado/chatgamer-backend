@@ -5,3 +5,4 @@ services:
     envVars:
       - key: HUGGINGFACE_TOKEN
         sync: false
+    startCommand: "bash start.sh"
